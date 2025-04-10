@@ -2,7 +2,7 @@
 
 This repository is meant to provide the R code used in my thesis to fulfill the requirements of the Masters in Statistics and Analytics degree at the University of Arkansas. I use (1) Legramanti's Extended Stochastic Block Model and (2) Geng's Mixture of Finite Mixtures Stochastic Block Model (MFM-SBM) for community detection in network analysis. (1) https://github.com/danieledurante/ESBM provides the collapsed Gibbs sampler for ESBM, and (2) https://github.com/gengjunxianjohn/MFM-SBM provides the collapsed Gibbs sampler for MFM-SBM. I provide the traditional SBM Gibbs sampler in `Traditional_SBM.R`. 
 
-This thesis modifies the above samplers to both simulated data and three complex real-world networks to determine best model fit for community detection. 
+This thesis modifies the above samplers to both simulated data and three complex real-world networks to determine best model fit for community detection. The files included are (1) `Traditional_SBM.R` which provides the traditional SBM Gibbs sampler, (2) `DPandGN_draws.R` which provides the process of drawing samples from the GN and DP prior urn schemes, (3) `sim0_distinct_groups.R` which provides model fit and posterior checking for each sampler on the simulated network data, and (4) `simulated_data0.RData` which provides the simulated data used in (3). 
 
 ## Traditional SBM
 
