@@ -5,9 +5,9 @@ This repository is meant to provide the R code used in my thesis to fulfill the 
 This thesis modifies the above samplers to both simulated data and three complex real-world networks to determine best model fit for community detection. 
 
 ## Traditional SBM
-\begin{align}
-    &A_{ij} \mid z_i, z_j, Q \sim \text{Bernoulli}(Q_{z_i z_j})  &\quad \text{(Likelihood)} \nonumber \\
-    &z_i \mid \pi\sim \text{Categorical}(\pi_1, \dots, \pi_K)  &\quad \text{(Cluster Assignments)} \\
-    &\pi \sim \text{Dirichlet}(\alpha_1, \dots ,\alpha_K)  &\quad \text{(Prior on Clusters)} \nonumber \\
-    &Q_{rs} \sim \text{Beta}(a, b)  &\quad \text{(Prior on Edge Probabilities)} \nonumber
-\end{align}
+
+   $ A_{ij} \mid z_i, z_j, Q \sim \text{Bernoulli}(Q_{z_i z_j})$
+    $z_i \mid \pi\sim \text{Categorical}(\pi_1, \dots, \pi_K)$
+    $\pi \sim \text{Dirichlet}(\alpha_1, \dots ,\alpha_K)$
+    $Q_{rs} \sim \text{Beta}(a, b)$
+
