@@ -6,8 +6,10 @@ This thesis modifies the above samplers to both simulated data and three complex
 
 ## Traditional SBM
 
-   $ A_{ij} \mid z_i, z_j, Q \sim \text{Bernoulli}(Q_{z_i z_j})$
-    $z_i \mid \pi\sim \text{Categorical}(\pi_1, \dots, \pi_K)$
-    $\pi \sim \text{Dirichlet}(\alpha_1, \dots ,\alpha_K)$
-    $Q_{rs} \sim \text{Beta}(a, b)$
+The traditional SBM has the hierarchical structure from which we implement the Gibbs sampler in the file `Traditional_SBM`
+
+   $A_{ij} \mid z_i, z_j, Q \sim \text{Bernoulli}(Q_{z_i z_j})$ //
+    $z_i \mid \pi\sim \text{Categorical}(\pi_1, \dots, \pi_K)$ //
+    $\pi \sim \text{Dirichlet}(\alpha_1, \dots ,\alpha_K)$ //
+    $Q_{rs} \sim \text{Beta}(a, b)$ //
 
